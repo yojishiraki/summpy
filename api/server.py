@@ -103,7 +103,7 @@ if __name__ == '__main__':
         '/summarize': {
             'tools.response_headers.on': True,
             'tools.response_headers.headers': [
-                ('Content-type', 'application/json')
+                ('Content-type', 'application/json; charset=utf-8')
             ]
         },
         '/static': {
